@@ -143,5 +143,5 @@ func TestHey (t *testing.T) {
 		if got != c.expected {
 				t.Errorf("ReverseRunes(%q) == %q, want %q", c.input, got, c.expected)
 		}
-}
+	}
 }
