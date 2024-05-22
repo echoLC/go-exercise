@@ -7,7 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Printf("%s", exercise.ToRNA("A"))
-	val, _ := exercise.Square(2)
-	fmt.Printf("%d", val)
+	fmt.Printf("%t", exercise.IsValidISBN("3-598-2X507-9"))
 }
